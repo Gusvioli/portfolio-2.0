@@ -3,7 +3,7 @@ import FotoDescricao from './components/FotoDescricao';
 import Habilidades from './components/Habilidades';
 import RedesSociais from './components/RedesSociais';
 import ServicosPrestados from './components/ServicosPrestados';
-import Contatos from './components/Contatos';
+// import Contatos from './components/Contatos';
 import foto from './assets/foto-gustavo-vieira.jpeg';
 import Menu from './components/Menu';
 import Whatsapp from './components/WhatsApp';
@@ -22,7 +22,7 @@ function App() {
       <MeusProjetos />
       <RedesSociais />
       <ServicosPrestados />
-      <Contatos />
+      {/* <Contatos /> */}
       <Whatsapp />
     </>
   )

@@ -1,5 +1,5 @@
 FROM node:16.14-alpine
-WORKDIR /app/frontend
+WORKDIR /app/frontend_profissional_site
 COPY . .
 EXPOSE 8080
 RUN npm install

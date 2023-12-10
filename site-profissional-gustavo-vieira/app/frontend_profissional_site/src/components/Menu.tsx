@@ -22,7 +22,7 @@ const Menu = () => {
                         <a href="#meusprojetos">Meus projetos</a>
                         <a href="#redes">Redes</a>
                         <a href="#services">Serviços</a>
-                        <a href="#contact">Contato</a>
+                        {/* <a href="#contact">Contato</a> */}
                     </div>
                     <div className="menu-zero" id="menu-zero">
                         <a className="traco" onClick={() => setMenu(!menu)}>

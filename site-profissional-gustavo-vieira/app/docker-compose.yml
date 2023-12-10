@@ -1,12 +1,12 @@
 version: '3.9'
 services:
-  frontend:
+  frontend_profissional_site:
     container_name: site_prof_frontend
-    build: ./frontend
+    build: ./frontend_profissional_site
     ports:
       - 8080:8080
     platform: linux/x86_64
-    working_dir: /app/frontend
+    working_dir: /app/frontend_profissional_site
     # Os `healthcheck` devem garantir que a aplicação
     # está operacional, antes de liberar o container
     healthcheck:

@@ -91,7 +91,7 @@ const Habilidades = () => {
                         <span>{img.name.toLocaleUpperCase()}</span>
                     </li> 
                     {skills.length === 1 &&
-                        <>                            
+                        <>                         
                             <span
                                 className='navegarAnt'
                                 onClick={() => handleNextDescription()}
