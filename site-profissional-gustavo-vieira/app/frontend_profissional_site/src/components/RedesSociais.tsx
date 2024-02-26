@@ -38,7 +38,7 @@ const RedesSociais = () => {
             }) => {
                 return (
                     <a
-                        href={`${window.location.href.split('/')[2]}${rede.href}`}
+                        href={`${rede.href}`}
                         target="_blank"
                         id='lis-redes'
                     >

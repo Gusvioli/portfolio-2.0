@@ -10,7 +10,8 @@ type Props = {
 const LiCross = ({n, cross, tam}: Props) => {
     const {projetos,
         exibirPopUpInfoMeusProjetos,
-        setExibirPopUpInfoMeusProjetos} = useContext(Context);
+        setExibirPopUpInfoMeusProjetos,
+        setObjExibirPopUp} = useContext(Context);
     const ret = cross+n > tam ? (cross+n) - tam : cross+n;
 
     const imgCross = {
@@ -24,7 +25,7 @@ const LiCross = ({n, cross, tam}: Props) => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleSaibaMais = (e: any) => {
         setExibirPopUpInfoMeusProjetos(!exibirPopUpInfoMeusProjetos);
-        return e;
+        setObjExibirPopUp(e)
     };
 
     return (
@@ -41,7 +42,7 @@ const LiCross = ({n, cross, tam}: Props) => {
             />
             <button
                 className="div-li-button"
-                onClick={(e) => handleSaibaMais(e)}
+                onClick={() => handleSaibaMais(projetos[ret - 1])}
             >
                 Saiba mais
             </button>        

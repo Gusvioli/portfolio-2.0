@@ -62,6 +62,7 @@
     animation-name: lis;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.733));
 }
 
 @keyframes lis {

@@ -23,6 +23,7 @@ function Provider({ children }: { children: React.ReactNode }) {
       exibirPopUpInfoMeusProjetos,
       setExibirPopUpInfoMeusProjetos
   ] = useState(false);
+  const [objExibirPopUp, setObjExibirPopUp] = useState<object>({});
   
   const memorize = React.useMemo(
     () => ({
@@ -34,7 +35,8 @@ function Provider({ children }: { children: React.ReactNode }) {
       tam, setTam,
       projetos, setProjetos,
       exibirPopUpInfoMeusProjetos,
-      setExibirPopUpInfoMeusProjetos
+      setExibirPopUpInfoMeusProjetos,
+      objExibirPopUp, setObjExibirPopUp
     }),
     [
       inspectElement, setInspectElement,
@@ -45,7 +47,8 @@ function Provider({ children }: { children: React.ReactNode }) {
       tam, setTam,
       projetos, setProjetos,
       exibirPopUpInfoMeusProjetos,
-      setExibirPopUpInfoMeusProjetos
+      setExibirPopUpInfoMeusProjetos,
+      objExibirPopUp, setObjExibirPopUp
     ],
   )
   return <Context.Provider value={memorize}>{children}</Context.Provider>
