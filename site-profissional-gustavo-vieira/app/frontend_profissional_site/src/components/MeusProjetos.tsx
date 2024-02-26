@@ -57,7 +57,7 @@ const MeusProjetos = () => {
                     className='li-button-l'
                     onClick={() => setCross(btnLFunc(cross, tam))}
                 >
-                    <img className="li-button-l-seta" src={seta} /></li>
+                    <img className="li-button-l-seta" src={seta} alt='botão seta direita' /></li>
 
                     {<LiCross n={1} cross={cross} tam={tam} />}
                     {<LiCross n={2} cross={cross} tam={tam} />}
@@ -67,7 +67,7 @@ const MeusProjetos = () => {
                     className='li-button-l'
                     onClick={() => setCross(btnRFunc(cross, tam))}
                 >
-                    <img className="li-button-r-seta"  src={seta} /></li>
+                    <img className="li-button-r-seta"  src={seta} alt='botão seta direita' /></li>
             </ul> }
         </div>
     );

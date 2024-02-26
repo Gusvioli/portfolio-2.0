@@ -39,6 +39,7 @@ const LiCross = ({n, cross, tam}: Props) => {
                 src="/src/assets/rocket-launch.png"
                 onClick={() => window.open(projetos[ret - 1].link, "_blank")}
                 title="Abrir projeto"
+                alt='Abrir projeto'
             />
             <button
                 className="div-li-button"

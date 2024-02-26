@@ -30,7 +30,7 @@ const PopUpInfoMeusProjetos = () => {
             </div>
 
             <div className='pop-up-rest'>
-                <img className='pop-up-img' src={objExibirPopUp.img} width={400} />
+                <img className='pop-up-img' src={objExibirPopUp.img} width={400} alt="pop-up-img" />
                 <div className='pop-up-nome-tcsdescali'>
                     <div>
                         <div className="pop-Up-nome">{objExibirPopUp.nome}</div>

@@ -42,7 +42,7 @@ const RedesSociais = () => {
                         target="_blank"
                         id='lis-redes'
                     >
-                        <img src={rede.src} width={200} />
+                        <img src={rede.src} width={200}  alt='redes' />
                     </a>
                 );
             })}

@@ -9,7 +9,7 @@ const Whatsapp = () => {
             rel="noreferrer"
             className="whatsapp"
         >
-        <img src={whatsapp} width={50} />
+        <img src={whatsapp} width={50} alt='imagem Whatsapp' />
         </a>
     );
 };
