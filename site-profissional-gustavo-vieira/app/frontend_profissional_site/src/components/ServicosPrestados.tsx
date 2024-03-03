@@ -27,7 +27,7 @@ const ServicosPrestados = () => {
         >
             <ComponentIntersectionObserver q="services" />
             <div className='div-interna-servicos' id='div-interna-servicos1'>
-                <h1 className='services-h1' id='services-h1'>Serviços</h1>
+                {/* <h1 className='services-h1' id='services-h1'>Serviços</h1> */}
                 <section id="about">
                     <h2>Sobre Mim</h2>
                     <p>Sou uma equipe de programadores apaixonado por transformar ideias em linhas de código. Minha missão é criar sites que não apenas impressionam visualmente, mas também funcionam de maneira eficiente e eficaz.</p>
