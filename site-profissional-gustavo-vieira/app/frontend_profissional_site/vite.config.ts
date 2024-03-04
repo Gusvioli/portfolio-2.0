@@ -12,7 +12,7 @@ export default defineConfig({
     },
     host: true,
     strictPort: true,
-    port: 8080,
+    port: 8081,
     // https: {
     //   key: fs.readFileSync('./gusvioli.key'),
     //   cert: fs.readFileSync('./gusvioli.crt')
