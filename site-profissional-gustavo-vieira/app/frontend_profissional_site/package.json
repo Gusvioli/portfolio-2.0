@@ -20,7 +20,7 @@
     "rs": "^0.0.1",
     "gh-pages": "^6.1.0"
   },
-  "homepage": "https://gusvioli.github.io/portfolio-2-0",
+  "homepage": "https://gusvioli.github.io/portfolio-2-0/",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
     "@babel/core": "^7.23.3",

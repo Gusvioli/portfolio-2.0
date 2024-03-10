@@ -1,7 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import 'dotenv/config'
-// import fs from 'fs'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import 'dotenv/config';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,10 +11,18 @@ export default defineConfig({
     },
     host: true,
     strictPort: true,
-    port: 8081,
-    // https: {
-    //   key: fs.readFileSync('./gusvioli.key'),
-    //   cert: fs.readFileSync('./gusvioli.crt')
-    // }
-  }
-})
+    port: 8080,
+  },
+  build: {
+    outDir: 'build', // Nome do diretório de build
+    emptyOutDir: true, // Limpa o diretório de build antes de cada build
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]',
+      },
+    },
+  },
+});
+
