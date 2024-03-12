@@ -1,0 +1,51 @@
+.section-home {
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color: black;
+    background-image: url("../../../../assets/Leonardo_Diffusion_XL_Crie_um_background_de_imagem_fazendo_rel_0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: -390px;
+    background-attachment: fixed;
+}
+
+.section-home img {
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgba(129, 124, 116, 0.336);
+}
+
+.section-div-home {
+    width: 100%;
+    height: auto;
+    background-color: #4b494928;
+    padding: 20px 5px 30px 5px;
+}
+
+.section-home h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #4b4949;
+}
+
+.section-home h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.section-home p {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}

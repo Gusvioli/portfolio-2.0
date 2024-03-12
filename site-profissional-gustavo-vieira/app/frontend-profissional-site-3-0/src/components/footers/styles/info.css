@@ -1,0 +1,36 @@
+.info {
+    display: flex;
+    flex-direction: wrap row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.info p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    transition: color 300ms;
+    padding: 2rem;
+}
+
+.info a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 300ms;
+    padding: 2rem;
+}
+
+.info a:hover {
+    color: #646cff;
+}
+
+.info a:active {
+    color: #61dafb;
+}
+
+.info a:visited {
+    color: #000000;
+}

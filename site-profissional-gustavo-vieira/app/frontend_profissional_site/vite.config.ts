@@ -11,7 +11,7 @@ export default defineConfig({
     },
     host: true,
     strictPort: true,
-    port: 8080,
+    port: 8081,
   },
   build: {
     outDir: 'build', // Nome do diretório de build
